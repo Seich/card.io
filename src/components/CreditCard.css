@@ -1,0 +1,32 @@
+.CreditCard {
+  border: 2px solid #d2d5db;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 6px 0 #d2d5db;
+}
+
+.CreditCard > div {
+  margin-bottom: 1em;
+}
+
+.CreditCard__name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.CreditCard__row {
+  display: flex;
+}
+
+.CreditCard__row span {
+  color: #6b7280;
+}
+
+.CreditCard__cvv {
+  margin-left: 1em;
+}
+
+.CreditCard > .CreditCard__network {
+  text-align: right;
+  margin-bottom: 0;
+}

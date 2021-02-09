@@ -1,0 +1,52 @@
+.CardDetails {
+  background: #ffffff;
+  flex-grow: 4;
+  margin: 20px;
+  padding: 20px;
+  position: relative;
+}
+
+.CardDetails__close {
+  background: none;
+  border: none;
+  font-size: 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  transition: scale ease-out 0.1s;
+}
+
+.CardDetails__close:hover {
+  scale: 1.1;
+}
+
+.CardDetails__summary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+.CardDetails__status {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.CardDetails__status button {
+  background: #bf2525;
+  color: #ffffff;
+  border: none;
+  padding: 8px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.CardDetails__status button:hover {
+  background: #920e0e;
+}
+
+.CardDetails__status button:active {
+  background: #bf2525;
+}
+

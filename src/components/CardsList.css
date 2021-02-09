@@ -1,0 +1,9 @@
+.CardsList {
+  margin: 20px;
+  flex-grow: 1;
+  flex-basis: 20vw;
+}
+
+.CardsList__loadingPlaceholder {
+  margin-bottom: 20px;
+}
